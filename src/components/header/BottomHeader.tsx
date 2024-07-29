@@ -12,6 +12,7 @@ const BottomHeader = () => {
         <LuMenu className="text-xl" /> All
       </p>
       <div className="h-full w-full md:w-auto overflow-x-auto flex items-center">
+      <div className="flex whitespace-nowrap no-scrollbar">
         <div className="flex whitespace-nowrap">
           <p className="md:inline-flex items-center h-8 px-2 border border-transparent hover:border-white cursor-pointer duration-300">
             Today &apos; s Deals
@@ -28,6 +29,7 @@ const BottomHeader = () => {
           <p className="md:inline-flex items-center h-8 px-2 border border-transparent hover:border-white cursor-pointer duration-300">
             Sell
           </p>
+        </div>
         </div>
       </div>
     </div>
