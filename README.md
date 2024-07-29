@@ -1,0 +1,2 @@
+# amazoneclone
+using tailwind nextjs
